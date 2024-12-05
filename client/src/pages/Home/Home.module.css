@@ -1,0 +1,51 @@
+.home {
+    width: 100%;
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home img {
+    width: 500px;
+}
+
+.home p {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.home span {
+    font-size: 2.2rem;
+    color: var(--red);
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.btn_red {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.btn_red:hover {
+    background-color: var(--primary);
+}
