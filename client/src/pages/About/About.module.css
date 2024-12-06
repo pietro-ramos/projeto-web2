@@ -1,0 +1,36 @@
+.about {
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.bio img {
+    width: 270px;
+    height: 270px;
+}
+
+.techs {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.texts h2, p {
+    margin-bottom: 1rem;
+}
+
+.techs img {
+    width: 100px;
+    height: 106px;
+}
