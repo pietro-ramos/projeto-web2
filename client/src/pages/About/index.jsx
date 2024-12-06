@@ -16,40 +16,39 @@ const About = () => {
                 <div className={styles.bio}>
                     <img src={avatar} alt="Avatar" className={styles.avatar}/>
                     <div className={styles.texts}>
-                        <h2>Sobre</h2>
+                        <h2>About</h2>
                         <p>
-                         Me chamo <strong>Pietro Ramos</strong>. Sou desenvolvedor de software e analista de sistemas.
+                         My name is <strong>Pietro Ramos</strong>. I am a software developer and systems analyst.
                             <br />
                         </p>
                         <br />
                         <p>
-                        Estudante de Análise e Desenvolvimento de Sistemas com experiência em gestão e análise de dados financeiros, <br />
-                         automação de processos e desenvolvimento de ferramentas tecnológicas.
+                        I am a student of Systems Analysis and Development with experience in financial data management and analysis, <br />
+                         process automation, and development of technological tools.
                             <br />
                         </p>
                         <br />
                         <p>
-                        Atualmente, atuo no desenvolvimento de soluções tecnológicas que otimizam processos empresariais <br />
-                         e melhoram a precisão e eficiência das análises financeiras. 
+                        Currently, I work on developing technological solutions that optimize business processes <br />
+                         and improve the accuracy and efficiency of financial analyses. 
                             <br />
                         </p>
                         <br />
                         <p>
-                        Estou expandindo continuamente meu conhecimento em microsserviços e tecnologias como Docker, <br />
-                         RabbitMQ e serviços de mensageria.                            <br />
+                        I am continuously expanding my knowledge in microservices and technologies such as Docker, <br />
+                         RabbitMQ, and messaging services.                            <br />
                         </p>
                     </div>
 
                 </div>
-                <div className={styles.techs}>
-                    <img src={react} alt="Ícone do React" />
-                    <img src={node} alt="Ícone do Node" />
-                    <img src={python} alt="Ícone do Python" />
-                    <img src={java} alt="Ícone do Java" />
-                    <img src={sql} alt="Ícone do SQL" />
-                    <img src={mongodb} alt="Ícone do MongoDB" />
-                    <img src={rabbitmq} alt="Ícone do RabbitMQ" />
-                    
+                 <div className={styles.techs}>
+                        <img src={react} alt="Ícone do React" />
+                        <img src={node} alt="Ícone do Node" />
+                        <img src={python} alt="Ícone do Python" />
+                        <img src={java} alt="Ícone do Java" />
+                        <img src={sql} alt="Ícone do SQL" />
+                        <img src={mongodb} alt="Ícone do MongoDB" />
+                        <img src={rabbitmq} alt="Ícone do RabbitMQ" />
                 </div>
             </section>
         </>
