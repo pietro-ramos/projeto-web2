@@ -7,6 +7,7 @@ import python from "./images/icon-python.svg";
 import java from "./images/icon-java.svg";
 import sql from "./images/icon-sql.svg";
 import mongodb from "./images/icon-mongodb.svg";
+import rabbitmq from "./images/icon-rabbitmq.svg";
 
 const About = () => {
     return (
@@ -47,6 +48,8 @@ const About = () => {
                     <img src={java} alt="Ícone do Java" />
                     <img src={sql} alt="Ícone do SQL" />
                     <img src={mongodb} alt="Ícone do MongoDB" />
+                    <img src={rabbitmq} alt="Ícone do RabbitMQ" />
+                    
                 </div>
             </section>
         </>
